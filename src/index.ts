@@ -18,7 +18,7 @@
 
 //another way of writing this
 class User{
-    static userNo:number=0 
+   private static userNo:number=0 
 protected userId:number=++User.userNo
 
 readonly location:String = "delhi"
